@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: #fff;
   font-family: "Roboto", arial, sans-serif;
@@ -222,6 +226,7 @@ header .navbar.navbar-light .nav-link.active {
 @media (max-width: 991.98px) {
   .img-md-fluid {
     max-width: 100%;
+    margin-right: -22%;
   }
 }
 
@@ -1178,6 +1183,10 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
+}
+
+.img-md-fluid{
+  margin-left: -25%;
 }
 
 @-webkit-keyframes loader-rotate {
