@@ -26,7 +26,9 @@
      
       <nav class="navbar navbar-expand-md navbar-dark bg-light">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Alotan</a>
+          <a class="navbar-brand" href="index.html">
+            <img src="../images/log.png" alt="El Buen Estilo" style="height: 50px;"> <!-- Ajusta el tamaño según necesites -->
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,24 +36,16 @@
           <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
             <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="hairstyle.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Haircut</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="hairstyle.html">Crew Cut</a>
-                  <a class="dropdown-item" href="hairstyle.html">Regular Hair Cut</a>
-                  <a class="dropdown-item" href="hairstyle.html">Shampoo + Cut</a>
-                  <a class="dropdown-item" href="hairstyle.html">Beard Trim with Razor</a>
-                  <a class="dropdown-item" href="hairstyle.html">Hair Color</a>
-                </div>
- 
+                <a class="nav-link active" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="about.html">About</a>
+                <a class="nav-link" href="hairstyle.html" id="dropdown04">Peinado y cortes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
+                <a class="nav-link" href="about.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contactanos</a>
               </li>
             </ul>
             
@@ -60,15 +54,14 @@
       </nav>
     </header>
     <!-- END header -->
-
     <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(images/big_image_1.jpg);">
       <div class="container">
         <div class="row align-items-center site-hero-inner justify-content-center">
           <div class="col-md-8 text-center">
 
             <div class="mb-5 element-animate">
-              <h1 class="mb-4">Contact Us</h1>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quo!</p>
+              <h1 class="mb-4">Contáctenos</h1>
+              <p class="lead">Tu estilo merece un trato exclusivo. En Capital del Corte | Barbería & Peluqueria, estamos listos para atenderte y a mejorar tu estilo de moda.</p>
             </div>
 
           </div>
@@ -76,14 +69,7 @@
       </div>
     </section>
     <!-- END section -->
-
-
-
-    
-
-
-   
- <section class="quick-info element-animate" data-animate-effect="fadeInLeft">
+    <section class="quick-info element-animate" data-animate-effect="fadeInLeft">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 bgcolor">
@@ -92,8 +78,8 @@
                 <div class="media">
                   <div class="mr-3 icon-wrap"><span class="icon ion-ios-telephone"></span></div>
                   <div class="media-body">
-                    <h5>+1 234 5633 342</h5>
-                    <p>Call us 24/7 we will get back to you ASAP</p>
+                    <h5>+51 929 235 574</h5>
+                    <p>Llamanos, consulta y reserva tu propia atencion de corte de cabello.</p>
                   </div>
                 </div>
               </div>
@@ -101,8 +87,8 @@
                 <div class="media">
                   <div class="mr-3 icon-wrap"><span class="icon ion-location"></span></div>
                   <div class="media-body">
-                    <h5>249 Division Rad</h5>
-                    <p>Fake st. New York, New York City,  PO 2923 USA</p>
+                    <h5>Av. Alfredo Mendiola</h5>
+                    <p>N.7810.Psj 3 Tienda 60 Urb. Pro Industrial (Mega Mercado de Unicachi)</p>
                   </div>
                 </div>
               </div>
@@ -110,8 +96,8 @@
                 <div class="media">
                   <div class="mr-3 icon-wrap"><span class="icon ion-android-time"></span></div>
                   <div class="media-body">
-                    <h5>Daily: 8 am - 10 pm</h5>
-                    <p>Mon-Fri, Sunday <br> Saturday: Closed</p>
+                    <h5>Atención: 10 am - 10 pm</h5>
+                    <p>Lunes a Viernes, <br>Sabados y Domingos</p>
                   </div>
                 </div>
               </div>
@@ -121,40 +107,39 @@
       </div>
     </section>
     <!-- END section -->
-    
-
-    <section class="site-section">
+  
+    <section id="contact" class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <form action="#" method="post">
-                  <div class="row">
+            <form action="#" method="post">  <!--Hacer la base de datos para este formulario-->
+              <div class="row">
+                <div class="col-md-4 form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" id="name" class="form-control ">
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="text" id="phone" class="form-control ">
+                </div>
                     <div class="col-md-4 form-group">
-                      <label for="name">Name</label>
-                      <input type="text" id="name" class="form-control ">
-                    </div>
-                    <div class="col-md-4 form-group">
-                      <label for="phone">Phone</label>
-                      <input type="text" id="phone" class="form-control ">
-                    </div>
-                     <div class="col-md-4 form-group">
-                      <label for="email">Email</label>
-                      <input type="email" id="email" class="form-control ">
-                    </div>
-                  </div>
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" class="form-control ">
+                </div>
+                </div>
                    
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="message">Write Message</label>
-                      <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
-                    </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <label for="message">Escribe un mensaje... (hora de reserva o que estilo de corte busca)</label>
+                    <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
                   </div>
+                </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input type="submit" value="Send Message" class="btn btn-primary">
-                    </div>
-                  </div>
-                </form>
+                    <input type="submit" value="Enviar Mensaje" class="btn btn-primary">
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -165,57 +150,36 @@
       <div class="container">
         <div class="row justify-content-center align-items-center intro">
           <div class="col-md-8 text-center element-animate">
-            <h2 class="mb-4"><span>Appoint a Haircut Today and</span> Get 25% discount</h2>
-            <p><a href="#" class="btn btn-black">Make an Appointment</a></p>
+            <h2 class="mb-4"><span>Acercate hoy a realizarte un corte y</span> y obten un 10% de descuento en tu primer corte</h2>
+            <p><a href="../contact.html#contact" class="btn btn-black">Reserva ahora</a></p>
           </div>
         </div>
       </div>
     </section>
     <!-- END section -->
-
-
-    
-    
-   
     <footer class="site-footer">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
-            <h3 class="mb-4">About</h3>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, quod!</p>
+            <h3 class="mb-4">Acerca de Nosotros</h3>
+            <p class="mb-4">Revivimos la esencia clásica de la barbería con un toque moderno. Nuestro equipo experto domina técnicas tradicionales y tendencias actuales para ofrecerte un servicio personalizado.</p>
             <ul class="list-unstyled ">
-              <li class="d-flex"><span class="mr-3"><span class="icon ion-ios-location"></span></span><span class="">34 Street Name, City Name Here, United States</span></li>
-              <li class="d-flex"><span class="mr-3"><span class="icon ion-ios-telephone"></span></span><span class="">+1 242 4942 290</span></li>
+              <li class="d-flex"><span class="mr-3"><span class="icon ion-ios-location"></span></span><span class="">Av. Alfredo Mendiola N. 7810.Psj 3 Tienda 60 Urb. Pro Industrial (Mega Mercado de Unicachi)</span></li>
+              <li class="d-flex"><span class="mr-3"><span class="icon ion-ios-telephone"></span></span><span class="">+51 929 235 574</span></li>
               <li class="d-flex"><span class="mr-3"><span class="icon ion-email"></span></span><span class="">info@yourdomain.com</span></li>
             </ul>
           </div>
           <div class="col-md-2">
             <h3 class="mb-4">Links</h3>
             <ul class="list-unstyled ">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Hairstyle</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">Acerca de</a></li>
+              <li><a href="#">Peinado y Cortes</a></li>
+              <li><a href="#">Contactanos</a></li>
             </ul>
           </div>
+         
           <div class="col-md-3">
-            <h3 class="mb-4">Latest Blog</h3>
-            <ul class="list-unstyled blog-entry-footer">
-              <li><a href="#">
-                <span class="post-meta">March 20, 2018</span>
-                <h3>7 Best Destination in The World</h3></a>
-              </li>
-              <li><a href="#">
-                <span class="post-meta">March 20, 2018</span>
-                <h3>4 Hour Work Week And The Rest Is Travel</h3></a>
-              </li>
-              <li><a href="#">
-                <span class="post-meta">March 20, 2018</span>
-                <h3>Why You Should Travel Today</h3></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3>Connect</h3>
+            <h3>Siguenos en Nuestras Redes Sociales</h3>
             <p>
               <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
               <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
@@ -226,7 +190,7 @@
         <div class="row justify-content-center">
           <div class="col-md-7 text-center">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> El Estilo Y El Buen Gusto Ya Tienen Capital. Todos los derechos reservados. </i> Creado con pasión por el <a href="https://colorlib.com" target="_blank">arte de la barbería.</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </div>
         </div>
