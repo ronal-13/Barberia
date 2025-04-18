@@ -6,7 +6,7 @@ document.getElementById("formulario").addEventListener("submit", function(e) {
   const email = document.getElementById("email").value.trim();
   const message = document.getElementById("message").value.trim();
 
-  fetch("http://localhost:5000/submit-form", {
+  fetch("http://localhost:5000/submit-form", { //corregir por la url del server de la base de datos
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, phone, email, message })
