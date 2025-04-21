@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: alojan-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: EMAIL_PASSWORD
+        value: uxkw aqan ovkw evqo  # puedes dejarlo así primero, luego lo ocultamos
